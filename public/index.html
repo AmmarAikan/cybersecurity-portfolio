@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore Ammar Aikan’s practical cybersecurity projects, including ACTIT, secure application design, and documented work supporting a focus on penetration testing.">
+  <meta name="theme-color" content="#071411">
+  <meta property="og:title" content="Ammar Aikan — Cybersecurity Projects &amp; Penetration Testing Focus">
+  <meta property="og:description" content="Security projects with source, evidence, status, and limitations—plus field-training case studies in Arabic and English.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ammaraikan.web.app/">
+  <link rel="canonical" href="https://ammaraikan.web.app/">
+  <title>Ammar Aikan — Cybersecurity Projects &amp; Penetration Testing Focus</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Ammar Aikan home"><span>AA</span><strong>Ammar Aikan</strong></a>
+    <nav aria-label="Primary navigation">
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#training">Training</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero__copy">
+        <p class="kicker"><span></span> Security projects documented with evidence</p>
+        <h1>Ammar Yahya<br>Mohammed Aikan</h1>
+        <p class="hero__focus">Early-career cybersecurity, focused on <em>Red Teaming</em> and <em>Penetration Testing</em>.</p>
+        <p class="hero__summary">I build and document practical security projects, with an interest in ethical hacking and the threat intelligence that helps put technical findings in context.</p>
+        <div class="actions">
+          <a class="button button--primary" href="#projects">Explore security projects</a>
+          <a class="button button--ghost" href="https://ammaraikan.github.io/">View concise CV</a>
+        </div>
+      </div>
+      <aside class="hero__proof" aria-label="Current focus">
+        <p class="proof-label">Portfolio principle</p>
+        <p class="proof-quote">“Show what was built, where the evidence lives, and where the claim stops.”</p>
+        <dl>
+          <div><dt>Primary focus</dt><dd>Offensive security methodology</dd></div>
+          <div><dt>Supporting context</dt><dd>Cyber threat intelligence</dd></div>
+          <div><dt>Communication</dt><dd>Arabic &amp; English reporting</dd></div>
+        </dl>
+      </aside>
+    </section>
+
+    <section class="section section--projects" id="projects">
+      <div class="section-heading">
+        <div><p class="eyebrow">Selected security projects</p><h2>Problem, implementation, evidence, limits.</h2></div>
+        <p>A repository is a starting point—not a claim that every feature is production-ready.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project project--feature">
+          <div class="project__meta"><span class="status status--built">Implemented team project</span><span>CTI · Platform</span></div>
+          <h3>ACTIT — Connecting threat information with context</h3>
+          <p>A team graduation project for processing threat-related information, extracting observables, and supporting correlation and structured sharing.</p>
+          <dl class="project__facts">
+            <div><dt>My contribution</dt><dd>Observable classification, ATT&amp;CK/STIX/MISP workflow integration, and indicator presentation.</dd></div>
+            <div><dt>Built with</dt><dd>FastAPI, React, PostgreSQL.</dd></div>
+            <div><dt>Limits</dt><dd>Wazuh is not part of the reviewed VPS baseline. Offline evaluation does not establish operational detection performance.</dd></div>
+          </dl>
+          <div class="project__links"><a href="https://github.com/AmmarAikan/ACTIT-Platform">View ACTIT source</a></div>
+        </article>
+
+        <article class="project">
+          <div class="project__meta"><span class="status status--built">Repository available</span><span>AppSec · Flask</span></div>
+          <h3>ProfileGuard Secure</h3>
+          <p>A Flask application exploring authentication, authorization, profile protection, secure uploads, rate limiting, and audit logging.</p>
+          <p class="limit"><strong>Limit:</strong> Project controls are visible in source; this is not a claim of comprehensive third-party assurance.</p>
+          <a class="project-link" href="https://github.com/AmmarAikan/ProfileGuard-Secure">Review source and controls →</a>
+        </article>
+
+        <article class="project">
+          <div class="project__meta"><span class="status status--built">Repository available</span><span>Java · Cryptography</span></div>
+          <h3>SecureVault AES</h3>
+          <p>Java desktop encryption with AES-256-GCM, password-based key derivation, authenticated file handling, and documented security limits.</p>
+          <p class="limit"><strong>Evidence:</strong> Source, security notes, and tests use synthetic data.</p>
+          <a class="project-link" href="https://github.com/AmmarAikan/SecureVault-AES-Java">Review repository →</a>
+        </article>
+
+        <article class="project">
+          <div class="project__meta"><span class="status status--experimental">Experimental</span><span>Network policy · GA</span></div>
+          <h3>Firewall Rule Optimizer</h3>
+          <p>An experimental genetic-algorithm workflow for rule ordering and comparison against a reference policy on sampled traffic.</p>
+          <p class="limit"><strong>Limit:</strong> Results describe project evaluation, not production network performance.</p>
+          <a class="project-link" href="https://github.com/AmmarAikan/AI-Firewall-Rule-Optimizer-GA-Flask">Review experiment →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section split" id="about">
+      <div>
+        <p class="eyebrow">About &amp; approach</p>
+        <h2>Security work should be inspectable.</h2>
+      </div>
+      <div class="prose">
+        <p>My work brings together security-focused software projects and a growing interest in offensive-security methodology. ACTIT is a team graduation project; my contributions include observable classification and work on ATT&amp;CK, STIX, and MISP workflows.</p>
+        <p>I also build projects around application-security controls, desktop encryption, and experimental firewall-rule optimization. I separate project implementation from production claims, and I sanitize sensitive assessment evidence before publication.</p>
+        <div class="principles">
+          <span>Authorization first</span><span>Evidence before claims</span><span>Limits stated clearly</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section training" id="training">
+      <div class="section-heading">
+        <div><p class="eyebrow">Field training · April–May 2026</p><h2>Pixel Mind — Cybersecurity Field Training</h2></div>
+        <p>Six weeks of practical, authorized work with technical reporting and public-safe case studies.</p>
+      </div>
+      <div class="training-grid">
+        <article class="case-study">
+          <div class="case-study__number">AR</div>
+          <div><p class="case-study__type">Arabic public portfolio edition</p><h3>Confluence RCE Assessment</h3><p>A concise Arabic assessment preserving methodology and remediation while removing target infrastructure and reusable exploit material.</p><a href="https://ammaraikan.github.io/assets/reports/Confluence_RCE_Assessment_AR_Public_Portfolio_Edition.pdf">Open sanitized Arabic report →</a></div>
+        </article>
+        <article class="case-study">
+          <div class="case-study__number">EN</div>
+          <div><p class="case-study__type">English public portfolio edition</p><h3>Internal Network Security Assessment</h3><p>An English assessment covering discovery, validation, internal review, risk prioritization, and remediation with organization-specific evidence removed.</p><a href="https://ammaraikan.github.io/assets/reports/Internal_Network_Security_Assessment_EN_Public_Portfolio_Edition.pdf">Open sanitized English report →</a></div>
+        </article>
+      </div>
+      <p class="sanitization-note">Publication note: public target IPs, infrastructure identifiers, organization names, account names, and operational exploit material are permanently redacted. Original evidence remains private.</p>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <div><p class="eyebrow">Skills linked to evidence</p><h2>What the projects demonstrate</h2></div>
+        <p>These are focus areas and project technologies, not equal-level proficiency ratings.</p>
+      </div>
+      <div class="skills-grid">
+        <article><span>01</span><h3>Security assessment</h3><p>Penetration-testing methodology, web application security, ethical hacking, validation, risk writing, and remediation.</p><a href="#training">Evidence: sanitized reports</a></article>
+        <article><span>02</span><h3>Threat intelligence</h3><p>Observable classification, ATT&amp;CK, STIX, MISP workflows, contextual analysis, and structured sharing.</p><a href="https://github.com/AmmarAikan/ACTIT-Platform">Evidence: ACTIT</a></article>
+        <article><span>03</span><h3>Secure development</h3><p>Python, Flask, FastAPI, Java, React, PostgreSQL, Linux, and Git as demonstrated in linked repositories.</p><a href="#projects">Evidence: selected projects</a></article>
+        <article><span>04</span><h3>Technical communication</h3><p>Arabic and English reporting, evidence handling, sanitization, documentation, and presentation.</p><a href="https://ammaraikan.github.io/">Evidence: concise CV</a></article>
+      </div>
+    </section>
+
+    <section class="section supporting" id="supporting">
+      <div class="section-heading">
+        <div><p class="eyebrow">Supporting engineering projects</p><h2>Broader implementation work</h2></div>
+      </div>
+      <div class="supporting-grid">
+        <article><h3>SocialGuard ML</h3><p>Offline model comparison for fake-profile classification. Reported metrics apply to the documented split, not live deployment.</p><a href="https://github.com/AmmarAikan/SocialGuard-ML-Project">View repository →</a></article>
+        <article><h3>ShifaFlow</h3><p>Arabic clinic-management platform demonstrating product structure, role-aware workflows, and full-stack delivery. The former Railway demo is no longer presented as live.</p><a href="https://github.com/AmmarAikan/shifaflow">View repository →</a></article>
+      </div>
+    </section>
+
+    <section class="section education" id="education">
+      <div>
+        <p class="eyebrow">Education &amp; learning</p>
+        <h2>Cybersecurity and Networks</h2>
+        <p>University of Science and Technology, Yemen. Academic requirements and the graduation project are completed; the formal degree-award date is not stated until confirmed by the university record.</p>
+      </div>
+      <div class="credentials">
+        <article><span>Certificate</span><h3>Cybersecurity Field Training</h3><p>Pixel Mind · 2026</p></article>
+        <article><span>Course completion</span><h3>CEH v13 Complete Series, Volumes 1–4</h3><p>EC-Council learning record · 2026</p></article>
+        <article><span>Course completion</span><h3>Enterprise Networking, Security, and Automation</h3><p>Cisco Networking Academy · 2025</p></article>
+        <article><span>Certification record</span><h3>OCI Foundations &amp; AI Foundations</h3><p>Oracle · 2025</p></article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <p class="eyebrow">Contact</p>
+      <h2>Interested in an early-career cybersecurity conversation?</h2>
+      <p>Connect with me on LinkedIn, review the source behind the projects, or open the concise CV.</p>
+      <div class="actions">
+        <a class="button button--primary" href="https://www.linkedin.com/in/ammaraikan">LinkedIn</a>
+        <a class="button button--ghost" href="https://github.com/AmmarAikan">GitHub</a>
+        <a class="button button--ghost" href="https://ammaraikan.github.io/">CV</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Ammar Yahya Mohammed Aikan. Project source licenses are stated in their respective repositories.</p>
+    <p>Security testing requires explicit authorization.</p>
+  </footer>
+</body>
+</html>
