@@ -1,0 +1,1150 @@
+[
+  {
+    "id": "LP-001",
+    "title": "ACTIT",
+    "summary": "Collaborative graduation platform for organizing threat information, extracting observables and supporting analyst review and structured sharing.",
+    "category": "Security engineering",
+    "type": "Team graduation project",
+    "technologies": [
+      "Python",
+      "FastAPI",
+      "React",
+      "TypeScript",
+      "PostgreSQL",
+      "BERT NER",
+      "STIX 2.1",
+      "MISP",
+      "Docker"
+    ],
+    "featured": true,
+    "repository": "https://github.com/AmmarAikan/ACTIT-Platform",
+    "report_url": null
+  },
+  {
+    "id": "LP-002",
+    "title": "ACTIT Showcase",
+    "summary": "Companion architecture, schema and synthetic examples for the ACTIT graduation project.",
+    "category": "Project history",
+    "type": "Companion documentation",
+    "technologies": [
+      "Python schema",
+      "JSON",
+      "NLP",
+      "SVG"
+    ],
+    "featured": false,
+    "repository": "https://github.com/AmmarAikan/CTI-Tool-Showcase",
+    "report_url": null
+  },
+  {
+    "id": "LP-003",
+    "title": "CyVault",
+    "summary": "Offline-first Flutter password vault with authenticated encryption, wrapped vault keys and portable backups.",
+    "category": "Security engineering",
+    "type": "Security application",
+    "technologies": [
+      "Flutter",
+      "Dart",
+      "Riverpod",
+      "Drift",
+      "AES-GCM",
+      "PBKDF2",
+      "Android/iOS"
+    ],
+    "featured": true,
+    "repository": "https://github.com/AmmarAikan/cyvault-flutter",
+    "report_url": null
+  },
+  {
+    "id": "LP-004",
+    "title": "CyVault · Firebase development",
+    "summary": "Identity and encrypted-sync architecture work on a separate feature branch; cloud sync remains incomplete.",
+    "category": "Project history",
+    "type": "In development",
+    "technologies": [
+      "Flutter",
+      "Firebase Auth",
+      "Firestore"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-005",
+    "title": "ProfileGuard Secure",
+    "summary": "Flask coursework implementing authentication, server-side authorization, profile-field protection, safer uploads and audit logging.",
+    "category": "Security engineering",
+    "type": "Academic application",
+    "technologies": [
+      "Python",
+      "Flask",
+      "SQLAlchemy",
+      "bcrypt",
+      "Argon2 legacy verification",
+      "Fernet",
+      "Flask-WTF"
+    ],
+    "featured": true,
+    "repository": "https://github.com/AmmarAikan/ProfileGuard-Secure",
+    "report_url": null
+  },
+  {
+    "id": "LP-006",
+    "title": "SecureVault AES",
+    "summary": "Java desktop encryption with AES-GCM, password-based key derivation and authenticated file containers.",
+    "category": "Security engineering",
+    "type": "Security application",
+    "technologies": [
+      "Java",
+      "Swing",
+      "Ant",
+      "AES-256-GCM",
+      "PBKDF2-HMAC-SHA256"
+    ],
+    "featured": true,
+    "repository": "https://github.com/AmmarAikan/SecureVault-AES-Java",
+    "report_url": null
+  },
+  {
+    "id": "LP-007",
+    "title": "Firewall Rule Optimizer",
+    "summary": "Genetic-algorithm simulation comparing rule ordering, sampled policy agreement and rule-check cost.",
+    "category": "Security engineering",
+    "type": "Academic simulation",
+    "technologies": [
+      "Python",
+      "Flask",
+      "NumPy",
+      "Matplotlib",
+      "genetic algorithms"
+    ],
+    "featured": false,
+    "repository": "https://github.com/AmmarAikan/AI-Firewall-Rule-Optimizer-GA-Flask",
+    "report_url": null
+  },
+  {
+    "id": "LP-008",
+    "title": "SocialGuard ML",
+    "summary": "Collaborative offline fake-profile classification pipeline with preprocessing, six-model comparison, Flask dashboard and REST API.",
+    "category": "Development & algorithms",
+    "type": "Team ML project",
+    "technologies": [
+      "Python",
+      "scikit-learn",
+      "XGBoost",
+      "pandas",
+      "Flask",
+      "Jupyter"
+    ],
+    "featured": false,
+    "repository": "https://github.com/AmmarAikan/SocialGuard-ML-Project",
+    "report_url": null
+  },
+  {
+    "id": "LP-009",
+    "title": "Employee QR Register",
+    "summary": "Local desktop registration workflow using non-PII HMAC-authenticated QR tokens, input validation and safer CSV output.",
+    "category": "Security engineering",
+    "type": "Desktop security project",
+    "technologies": [
+      "Python",
+      "Tkinter",
+      "HMAC-SHA256",
+      "CSV",
+      "QR"
+    ],
+    "featured": false,
+    "repository": "https://github.com/AmmarAikan/Employee-QR-Register",
+    "report_url": null
+  },
+  {
+    "id": "LP-010",
+    "title": "CloudSim Resource Optimizer",
+    "summary": "Java simulation of heterogeneous resource allocation, VM placement and scheduling with saved reports.",
+    "category": "Development & algorithms",
+    "type": "Cloud simulation",
+    "technologies": [
+      "Java 17",
+      "CloudSim Plus 8.5.7",
+      "Maven",
+      "JUnit"
+    ],
+    "featured": false,
+    "repository": "https://github.com/AmmarAikan/NajmTech-CloudSim-Optimizer",
+    "report_url": null
+  },
+  {
+    "id": "LP-011",
+    "title": "Hybrid Maze GA and A*",
+    "summary": "Genetic algorithm evolves maze-generation parameters; A* supplies path length and search-expansion fitness, exposed through Flask.",
+    "category": "Development & algorithms",
+    "type": "Academic / personal work",
+    "technologies": [
+      "Python",
+      "Flask",
+      "NumPy",
+      "Matplotlib",
+      "GA",
+      "A*"
+    ],
+    "featured": false,
+    "repository": "https://github.com/AmmarAikan/AI-Hybrid-Maze-GA-AStar-Flask",
+    "report_url": null
+  },
+  {
+    "id": "LP-012",
+    "title": "Java Billing Management",
+    "summary": "Swing/MySQL application for buyers, products and PDF invoices.",
+    "category": "Development & algorithms",
+    "type": "Academic desktop app",
+    "technologies": [
+      "Java",
+      "Swing",
+      "NetBeans Ant",
+      "MySQL",
+      "iText"
+    ],
+    "featured": false,
+    "repository": "https://github.com/AmmarAikan/Java-Billing-Management-System",
+    "report_url": null
+  },
+  {
+    "id": "LP-013",
+    "title": "Java Billing · earlier version",
+    "summary": "Earlier version of the billing application, retained as development history.",
+    "category": "Project history",
+    "type": "Historical version",
+    "technologies": [
+      "Java",
+      "Swing",
+      "MySQL"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-014",
+    "title": "GitHub Pages CV",
+    "summary": "Static CV-focused personal website distinct from Firebase portfolio.",
+    "category": "Development & algorithms",
+    "type": "Academic / personal work",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "GitHub Pages"
+    ],
+    "featured": false,
+    "repository": "https://github.com/AmmarAikan/AmmarAikan.github.io",
+    "report_url": null
+  },
+  {
+    "id": "LP-015",
+    "title": "Attack-Aware Secure Layout",
+    "summary": "GA layout and security-feature placement with A* attack-path cost/risk simulation.",
+    "category": "Development & algorithms",
+    "type": "Academic / personal work",
+    "technologies": [
+      "Python",
+      "GA",
+      "A*",
+      "Matplotlib"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-016",
+    "title": "Grid Search Algorithms",
+    "summary": "BFS, DFS, UCS and A* grid pathfinding with comparative experiment outputs.",
+    "category": "Development & algorithms",
+    "type": "Academic / personal work",
+    "technologies": [
+      "Python",
+      "Matplotlib",
+      "graph search"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-017",
+    "title": "Firewall Optimizer draft",
+    "summary": "Earlier copy of firewall ordering optimizer.",
+    "category": "Project history",
+    "type": "Academic / personal work",
+    "technologies": [
+      "Python",
+      "Flask",
+      "GA"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-018",
+    "title": "Hybrid Maze CLI draft",
+    "summary": "Command-line maze GA/A* predecessor.",
+    "category": "Project history",
+    "type": "Academic / personal work",
+    "technologies": [
+      "Python",
+      "GA",
+      "A*"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-019",
+    "title": "Legacy NajmTech CloudSim",
+    "summary": "NetBeans CloudSim simulation preceding canonical optimizer.",
+    "category": "Project history",
+    "type": "Academic / personal work",
+    "technologies": [
+      "Java",
+      "CloudSim",
+      "Ant"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-020",
+    "title": "CloudSim legacy backup",
+    "summary": "Backup of earlier cloudsim_4 source tree.",
+    "category": "Project history",
+    "type": "Academic / personal work",
+    "technologies": [
+      "Java",
+      "CloudSim"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-021",
+    "title": "TechnoServe CloudSim draft",
+    "summary": "NetworkExample3 simulation and TechnoServe documentation.",
+    "category": "Development & algorithms",
+    "type": "Academic / personal work",
+    "technologies": [
+      "Java",
+      "CloudSim"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-022",
+    "title": "CloudSim4 draft variants",
+    "summary": "Alternative CloudSim/NajmTech classes and result CSVs.",
+    "category": "Project history",
+    "type": "Academic / personal work",
+    "technologies": [
+      "Java",
+      "CloudSim",
+      "Ant"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-023",
+    "title": "Elearn CloudSim",
+    "summary": "E-learning resource simulation with cloudlet mapping and saved results.",
+    "category": "Development & algorithms",
+    "type": "Academic / personal work",
+    "technologies": [
+      "Java",
+      "CloudSim",
+      "Ant"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-024",
+    "title": "Third-party CloudSim reference",
+    "summary": "Locally checked-out third-party CloudSim project plus example classes and dependency JARs.",
+    "category": "Reference & context",
+    "type": "Academic / personal work",
+    "technologies": [
+      "Java",
+      "CloudSim",
+      "PSO library"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-025",
+    "title": "Zero Trust Cloud Architecture presentation",
+    "summary": "Cloud zero-trust presentation and PDF variants.",
+    "category": "Research & design",
+    "type": "Academic / personal work",
+    "technologies": [
+      "Zero trust",
+      "cloud architecture"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-026",
+    "title": "Early personal HTML website",
+    "summary": "Multi-page personal CV/gallery/contact website exercise.",
+    "category": "Development & algorithms",
+    "type": "Academic / personal work",
+    "technologies": [
+      "HTML",
+      "CSS"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-027",
+    "title": "Static news website study",
+    "summary": "HTML/CSS coursework material carrying third-party author credit; independent authorship unresolved.",
+    "category": "Reference & context",
+    "type": "Reference / attribution hold",
+    "technologies": [
+      "HTML",
+      "CSS"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-028",
+    "title": "DES cryptography lab",
+    "summary": "Documented text/image DES exercise with plaintext/ciphertext example artifacts.",
+    "category": "Development & algorithms",
+    "type": "Academic / personal work",
+    "technologies": [
+      "DES",
+      "cryptography"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-029",
+    "title": "Archived Java DES application",
+    "summary": "Archived Swing DES implementation predecessor to SecureVault AES.",
+    "category": "Project history",
+    "type": "Academic / personal work",
+    "technologies": [
+      "Java",
+      "Swing",
+      "DES"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-030",
+    "title": "RSA and image steganography experiment",
+    "summary": "Tkinter/Python image message-hiding experiment with cryptography imports and saved example images.",
+    "category": "Security engineering",
+    "type": "Academic / personal work",
+    "technologies": [
+      "Python",
+      "Tkinter",
+      "Pillow",
+      "stegano",
+      "RSA"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-031",
+    "title": "CyVault earlier iteration cyvault",
+    "summary": "Earlier password-vault/mobile application iteration retained as project history.",
+    "category": "Project history",
+    "type": "Academic / personal work",
+    "technologies": [
+      "Flutter",
+      "Dart"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-032",
+    "title": "CyVault earlier iteration cyvault2",
+    "summary": "Earlier password-vault/mobile application iteration retained as project history.",
+    "category": "Project history",
+    "type": "Academic / personal work",
+    "technologies": [
+      "Flutter",
+      "Dart"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-033",
+    "title": "CyVault earlier iteration cyvault_final",
+    "summary": "Earlier password-vault/mobile application iteration retained as project history.",
+    "category": "Project history",
+    "type": "Academic / personal work",
+    "technologies": [
+      "Flutter",
+      "Dart"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-034",
+    "title": "CyVault earlier iteration pro1",
+    "summary": "Earlier password-vault/mobile application iteration retained as project history.",
+    "category": "Project history",
+    "type": "Academic / personal work",
+    "technologies": [
+      "Flutter",
+      "Dart"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-035",
+    "title": "CyVault scaffold and module archives",
+    "summary": "Scaffold ZIP plus module ZIP sequence in parent directory documenting iterative delivery.",
+    "category": "Project history",
+    "type": "Academic / personal work",
+    "technologies": [
+      "Flutter",
+      "Dart"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-036",
+    "title": "Hotel booking template reference",
+    "summary": "Third-party/template Flutter hotel booking reference containing UI and application modules.",
+    "category": "Reference & context",
+    "type": "Academic / personal work",
+    "technologies": [
+      "Flutter",
+      "Dart"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-037",
+    "title": "Archived Flutter invoicing study",
+    "summary": "Local invoicing application material with unresolved ownership; retained as a study/reference record.",
+    "category": "Reference & context",
+    "type": "Reference / attribution hold",
+    "technologies": [
+      "Flutter",
+      "Dart",
+      "SQLite/sqflite"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-038",
+    "title": "Hotel Network Design",
+    "summary": "Packet Tracer coursework documenting VLANs, routing, addressing and access-control configuration.",
+    "category": "Networks & systems",
+    "type": "Network lab",
+    "technologies": [
+      "Cisco Packet Tracer",
+      "VLAN",
+      "OSPF",
+      "DHCP",
+      "NAT/PAT",
+      "ACL",
+      "port security"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-039",
+    "title": "Multi-layer Honeynet",
+    "summary": "Research proposal for a layered honeynet and attack-analysis dashboard.",
+    "category": "Research & design",
+    "type": "Research proposal",
+    "technologies": [
+      "Honeypots",
+      "Cowrie",
+      "Dionaea",
+      "Suricata",
+      "pfSense",
+      "analytics"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-040",
+    "title": "Arduino Remote Control",
+    "summary": "Collaborative report with embedded serial-control code and component design; hardware execution remains unverified.",
+    "category": "Research & design",
+    "type": "Embedded coursework",
+    "technologies": [
+      "Arduino Uno",
+      "C++",
+      "HC-05",
+      "motor driver",
+      "ultrasonic sensor"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-041",
+    "title": "Virtual Network Defense",
+    "summary": "Team VMware lab documenting Windows identity/services, firewall and log-ingestion work.",
+    "category": "Networks & systems",
+    "type": "Team network lab",
+    "technologies": [
+      "VMware",
+      "Windows Server",
+      "Active Directory",
+      "GPO",
+      "DNS",
+      "DHCP",
+      "pfSense",
+      "Suricata",
+      "Splunk"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-042",
+    "title": "FortiGate & Active Directory",
+    "summary": "LDAP authentication integration lab with documented tests and explicit transport/access-control limitations.",
+    "category": "Networks & systems",
+    "type": "Security integration lab",
+    "technologies": [
+      "FortiGate",
+      "Windows Server 2022",
+      "LDAP",
+      "AD"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-043",
+    "title": "Server room security assessment",
+    "summary": "Academic scenario covering server-room assets, threats, safeguards and recovery controls.",
+    "category": "Networks & systems",
+    "type": "Academic / personal work",
+    "technologies": [
+      "Risk assessment",
+      "physical security",
+      "backup"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-044",
+    "title": "Security policies and frameworks exercise",
+    "summary": "Academic discussion of regulatory frameworks, security policies and awareness training.",
+    "category": "Networks & systems",
+    "type": "Academic / personal work",
+    "technologies": [
+      "Governance",
+      "security policies",
+      "awareness"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-045",
+    "title": "Clinic database design",
+    "summary": "Clinic/doctors relational data dictionary and schema exercise with iterative DOCX versions.",
+    "category": "Research & design",
+    "type": "Academic / personal work",
+    "technologies": [
+      "Relational modelling",
+      "data dictionaries",
+      "Oracle-style types"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-046",
+    "title": "Clinic Systems Analysis",
+    "summary": "Team requirements/design report with data-flow models, SQL definitions and interface examples.",
+    "category": "Research & design",
+    "type": "Systems-design coursework",
+    "technologies": [
+      "Requirements",
+      "systems analysis",
+      "DFD",
+      "design documentation"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-047",
+    "title": "VulnHub DC-1",
+    "summary": "Controlled vulnerable-machine lab documenting Drupal enumeration, known-vulnerability analysis and remediation.",
+    "category": "Security labs & reports",
+    "type": "Vulnerable-machine lab",
+    "technologies": [
+      "Nmap",
+      "Drupal",
+      "Metasploit",
+      "John"
+    ],
+    "featured": true,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-048",
+    "title": "VulnHub DC-2",
+    "summary": "Controlled WordPress assessment lab documenting service discovery, access and Linux privilege-escalation reasoning.",
+    "category": "Security labs & reports",
+    "type": "Vulnerable-machine lab",
+    "technologies": [
+      "Nmap",
+      "WordPress",
+      "Linux"
+    ],
+    "featured": true,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-049",
+    "title": "VulnHub DC-3",
+    "summary": "Team Joomla assessment lab documenting enumeration, SQL injection and Linux privilege-escalation analysis.",
+    "category": "Security labs & reports",
+    "type": "Team vulnerable-machine lab",
+    "technologies": [
+      "Nmap",
+      "JoomScan",
+      "SQLmap",
+      "John",
+      "Joomla"
+    ],
+    "featured": true,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-050",
+    "title": "PixelMind · Scanning & SSRF",
+    "summary": "Training documentation covering Nuclei familiarity, selected SSRF practice and vulnerability/template research.",
+    "category": "Security labs & reports",
+    "type": "Field-training work",
+    "technologies": [
+      "Web security",
+      "vulnerability research"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-051",
+    "title": "PixelMind · Reconnaissance & Uploads",
+    "summary": "Training reports and selected solved upload labs, with DNS, service and endpoint discovery work.",
+    "category": "Security labs & reports",
+    "type": "Field-training work",
+    "technologies": [
+      "Nmap",
+      "DNS",
+      "Confluence",
+      "CVE analysis"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-052",
+    "title": "PixelMind · CSRF & Security Research",
+    "summary": "CSRF lab evidence plus separate research reports on Cloudflare-origin exposure, honeypots and Tomcat vulnerabilities.",
+    "category": "Security labs & reports",
+    "type": "Labs & research",
+    "technologies": [
+      "Burp Suite",
+      "CSRF",
+      "Cloudflare",
+      "honeypots",
+      "Tomcat"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-053",
+    "title": "Confluence Assessment & Web Labs",
+    "summary": "Assessment writeup interpreting supplied validation evidence, alongside selected CSRF/XSS and tunneling training.",
+    "category": "Security labs & reports",
+    "type": "Field-training report",
+    "technologies": [
+      "Burp Suite",
+      "CSRF",
+      "XSS",
+      "Metasploit",
+      "Confluence"
+    ],
+    "featured": true,
+    "repository": null,
+    "report_url": "https://ammaraikan.github.io/assets/reports/Confluence_RCE_Assessment_AR_Public_Portfolio_Edition.pdf"
+  },
+  {
+    "id": "LP-054",
+    "title": "Internal Network Assessment Analysis",
+    "summary": "Bilingual training report analyzing supplied network scans, vulnerability results and account-review evidence, with risk and remediation guidance.",
+    "category": "Security labs & reports",
+    "type": "Evidence-analysis report",
+    "technologies": [
+      "Nmap",
+      "Nuclei",
+      "PowerShell",
+      "Active Directory",
+      "VMware",
+      "risk reporting"
+    ],
+    "featured": true,
+    "repository": null,
+    "report_url": "https://ammaraikan.github.io/assets/reports/Internal_Network_Security_Assessment_EN_Public_Portfolio_Edition.pdf"
+  },
+  {
+    "id": "LP-055",
+    "title": "Odoo ERP Workflows",
+    "summary": "Collaborative course implementation across business workflows; documented team lead and Sales/POS contribution.",
+    "category": "Networks & systems",
+    "type": "Team ERP coursework",
+    "technologies": [
+      "Odoo Online",
+      "ERP",
+      "Sales",
+      "POS",
+      "Inventory",
+      "Accounting"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-056",
+    "title": "FTK Imager & Autopsy",
+    "summary": "Paired forensic lab documenting evidence acquisition and analysis setup; completion/hash verification not established.",
+    "category": "Forensics & recovery",
+    "type": "Forensics lab",
+    "technologies": [
+      "FTK Imager",
+      "Autopsy",
+      "disk imaging"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-057",
+    "title": "Ghost Imaging & Account Recovery",
+    "summary": "Paired lab documenting image creation and offline account modification; restore verification not established.",
+    "category": "Forensics & recovery",
+    "type": "Forensics lab",
+    "technologies": [
+      "Symantec Ghost",
+      "Active@ Password Changer"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-058",
+    "title": "Linux Configuration Audit",
+    "summary": "Paired lab reviewing Linux configuration and security settings through a read-only audit script.",
+    "category": "Forensics & recovery",
+    "type": "Paired forensics lab",
+    "technologies": [
+      "Kali Linux",
+      "Bash",
+      "system configuration"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-059",
+    "title": "Maltego OSINT Lab",
+    "summary": "Paired lab documenting link analysis and an OSINT investigation workflow with Maltego Graph.",
+    "category": "Forensics & recovery",
+    "type": "Paired forensics lab",
+    "technologies": [
+      "Maltego",
+      "OSINT",
+      "graph analysis"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-060",
+    "title": "OSForensics Examination",
+    "summary": "Paired examination report covering filesystem and user-activity artifacts in a controlled lab.",
+    "category": "Forensics & recovery",
+    "type": "Forensics lab",
+    "technologies": [
+      "OSForensics",
+      "Windows forensic artifacts"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-061",
+    "title": "Wiping & Raw Disk Analysis",
+    "summary": "Paired lab documenting wiping setup and raw-disk examination; full sanitization verification not established.",
+    "category": "Forensics & recovery",
+    "type": "Forensics lab",
+    "technologies": [
+      "R-Wipe & Clean",
+      "DiskExplorer for NTFS"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-062",
+    "title": "Steganography Detection & Extraction",
+    "summary": "Paired lab documenting image metadata review and hidden-content analysis.",
+    "category": "Forensics & recovery",
+    "type": "Paired forensics lab",
+    "technologies": [
+      "Steghide",
+      "ExifTool",
+      "StegSeek",
+      "Kali Linux"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-063",
+    "title": "Veeam Backup & Recovery",
+    "summary": "Paired lab documenting backup, controlled file deletion, restore and content verification.",
+    "category": "Forensics & recovery",
+    "type": "Recovery lab",
+    "technologies": [
+      "Veeam Backup & Replication Community Edition"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": "https://ammaraikan.github.io/assets/reports/Veeam_Backup_and_Recovery_Lab_Public_Portfolio_Edition.pdf"
+  },
+  {
+    "id": "LP-064",
+    "title": "OSForensics Case Evidence",
+    "summary": "Private case-export material supporting the paired OSForensics laboratory report.",
+    "category": "Project history",
+    "type": "Private supporting evidence",
+    "technologies": [
+      "OSForensics",
+      "HTML report"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-065",
+    "title": "Network Security Project Planning",
+    "summary": "Academic work breakdown, scheduling, resource/cost and hardening-plan documentation.",
+    "category": "Networks & systems",
+    "type": "Project-management coursework",
+    "technologies": [
+      "Microsoft Project",
+      "WBS",
+      "risk planning",
+      "network security"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-066",
+    "title": "GA-tuned Weighted A* heuristic experiment",
+    "summary": "Genetic algorithm evolves weight and Manhattan/Euclidean mixing for Weighted A* across solvable training grids. Distinct objective from GA maze generation.",
+    "category": "Development & algorithms",
+    "type": "Academic / personal work",
+    "technologies": [
+      "Python",
+      "graph search",
+      "GA",
+      "Matplotlib"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-067",
+    "title": "Archived CloudSim Scenario",
+    "summary": "E-commerce resource-allocation simulation found in an archive; author attribution remains unresolved.",
+    "category": "Reference & context",
+    "type": "Archived simulation / attribution hold",
+    "technologies": [
+      "Java",
+      "CloudSim",
+      "BRITE topology"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-068",
+    "title": "AI course requirements and report collection",
+    "summary": "Parent requirements/evaluation/recommendations plus documentation of the AI experiments; nested implementations retain separate project IDs.",
+    "category": "Project history",
+    "type": "Academic / personal work",
+    "technologies": [
+      "PDF",
+      "DOCX",
+      "academic evaluation"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-069",
+    "title": "Cloud coursework context and report variants",
+    "summary": "Parent/draft report and requirement artifacts supporting separately registered CloudSim experiments.",
+    "category": "Project history",
+    "type": "Academic / personal work",
+    "technologies": [
+      "PDF",
+      "DOCX",
+      "text"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "LP-070",
+    "title": "CyVault delivery archive and planning collection",
+    "summary": "Parent planning documents, module ZIPs and final-delivery archive supporting individual CyVault iterations.",
+    "category": "Project history",
+    "type": "Academic / personal work",
+    "technologies": [
+      "Flutter",
+      "Dart",
+      "Markdown",
+      "ZIP"
+    ],
+    "featured": false,
+    "repository": null,
+    "report_url": null
+  },
+  {
+    "id": "GH-001",
+    "title": "ShifaFlow",
+    "summary": "Arabic-first clinic workflow and appointment management application built with PHP and MySQL; former public demo is retired.",
+    "category": "Development & algorithms",
+    "type": "Web application",
+    "technologies": [
+      "PHP",
+      "MySQL",
+      "Docker"
+    ],
+    "featured": false,
+    "repository": "https://github.com/AmmarAikan/shifaflow",
+    "report_url": null
+  },
+  {
+    "id": "GH-002",
+    "title": "API Heist · fork contribution",
+    "summary": "Defensive fork of thano-ai/api_heist with attributed authentication/authorization hardening, bounded fetching, signed webhooks and regression tests.",
+    "category": "Security engineering",
+    "type": "Fork / attributed security contribution",
+    "technologies": [
+      "Python",
+      "Flask",
+      "JWT",
+      "pytest",
+      "Docker"
+    ],
+    "featured": false,
+    "repository": "https://github.com/AmmarAikan/api_heist",
+    "report_url": null
+  },
+  {
+    "id": "GH-003",
+    "title": "Main Professional Portfolio",
+    "summary": "Static professional portfolio, independently hosted on Firebase and maintained separately from the CV website.",
+    "category": "Development & algorithms",
+    "type": "Professional website",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Firebase Hosting"
+    ],
+    "featured": false,
+    "repository": "https://github.com/AmmarAikan/cybersecurity-portfolio",
+    "report_url": null
+  }
+]
