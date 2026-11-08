@@ -6,12 +6,6 @@
       "**/.*",
       "**/node_modules/**",
       "assets/reports/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
     ]
   }
 }

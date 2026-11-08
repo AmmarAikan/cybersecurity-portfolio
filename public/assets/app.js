@@ -1,6 +1,20 @@
 (() => {
+  if (location.pathname === '/' || location.pathname === '/index.html') {
+    const id = location.hash.slice(1);
+    const legacy = {about: 'about', labs: 'about', projects: 'projects', portfolio: 'projects',
+      skills: 'skills', collection: 'collection', training: 'training', contact: 'contact'};
+    if (Object.hasOwn(legacy, id)) {
+      location.replace('/' + legacy[id] + '/' + (id === 'labs' ? '#labs' : ''));
+      return;
+    }
+    if (/^project-lp-\d+$/.test(id)) {
+      location.replace('/collection/#' + id);
+      return;
+    }
+  }
   const menu = document.querySelector('.menu-toggle');
   const nav = document.getElementById('primary-nav');
+  if (!menu || !nav) return;
   menu.addEventListener('click', () => {
     const open = menu.getAttribute('aria-expanded') !== 'true';
     menu.setAttribute('aria-expanded', String(open));
@@ -20,6 +34,7 @@
     }
   });
   const input = document.getElementById('project-search');
+  if (!input) return;
   const buttons = [...document.querySelectorAll('.filter')];
   const rows = [...document.querySelectorAll('.project-row')];
   const status = document.getElementById('results-status');
