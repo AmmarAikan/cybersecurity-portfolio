@@ -2,9 +2,9 @@
   {
     "id": "LP-001",
     "title": "ACTIT",
-    "summary": "Collaborative graduation platform for organizing threat information, extracting observables and supporting analyst review and structured sharing.",
+    "summary": "Completed team graduation project for AI-assisted threat intelligence, observable classification, analyst review and structured sharing.",
     "category": "Security engineering",
-    "type": "Team graduation project",
+    "type": "Completed team graduation project",
     "technologies": [
       "Python",
       "FastAPI",
