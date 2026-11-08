@@ -1,21 +1,11 @@
-# Ammar Aikan — Cybersecurity Portfolio
+# Ammar Aikan — main professional portfolio
 
-Source for [ammaraikan.web.app](https://ammaraikan.web.app), a focused cybersecurity portfolio covering selected security engineering projects, penetration-testing training, evidence-linked skills, education, and professional contact links.
+Static portfolio hosted on Firebase at https://ammaraikan.web.app/. This is distinct from the CV website at https://ammaraikan.github.io/#profile.
 
-## Structure
+The rebuild uses the selected paper/evergreen design, original portrait and73categorized collection entries including labs, research, archives and references. These are not73independently completed products. Team/fork/coursework attribution and evidence limits are retained.
 
-- `public/index.html` — portfolio content and project case studies
-- `public/assets/styles.css` — responsive visual system
-- `firebase.json` — Firebase Hosting configuration
-- `.firebaserc` — Firebase project alias
+`public/` is the Firebase output. Preview with `python -m http.server 8787 --directory public`. Run `python .github/scripts/check_site.py` for local asset/anchor/PDF checks. The Website checks workflow runs static validation; manual dispatch additionally verifies public HTML/PDF bytes against the checked-out commit.
 
-The public security reports are hosted from the companion [GitHub Pages CV repository](https://github.com/AmmarAikan/AmmarAikan.github.io) so the site does not maintain duplicate large files.
+Professional facts originate in the private Career Branding Workspace shared content source. Only approved public fields are exported to `public/assets/projects.json`; confidential discovery records, original assessment evidence and credentials are excluded. PDF and DOCX copies match the separate CV website. Source regeneration and evidence hashes are recorded in the workspace; update facts there before rebuilding both sites.
 
-## Local preview and deployment
-
-```powershell
-firebase emulators:start --only hosting
-firebase deploy --only hosting
-```
-
-The portfolio contains no production secrets or private assessment evidence. Only permanently sanitized report editions are linked publicly.
+Deploy existing hosting with `firebase deploy --only hosting --project ammaraikan`. Do not change the hosting target or treat a successful deployment command as live verification. Public reports remain linked to the separately reviewed GitHub Pages editions. Official Bootstrap Icons and Manrope font licenses are shipped with their assets.
